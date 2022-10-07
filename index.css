@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dashboard-main-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(218, 218, 218);
+    border: 1px solid rgb(189, 189, 189);
+
+    width: 90%;
+    max-width: 1400px;
+    height: fit-content;
+    min-height: 400px;
+
+    overflow-y: auto;
+
+    border-radius: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 20px;
+}
